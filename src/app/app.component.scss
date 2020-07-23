@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+
+.grid-button-container{
+  display: grid;
+  grid-template-columns: 80%;
+  border-bottom: 1px solid #cecece;
+}
+
+.sub-grid-button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+.width-70{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
